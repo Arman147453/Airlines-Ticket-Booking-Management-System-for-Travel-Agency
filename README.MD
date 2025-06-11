@@ -1,58 +1,69 @@
-Project Overview 
-- Travel Destination BD is an online portal built with PHP and MySQL
-- Provides simple simulation support for admin panel and users panel
-- User can search flight, select flight and book flight
-- User can see the booking information through the portal
-- User can create/sigh up their customer panel through register option
-- User can edit the user panel
-- User can get information via FAQ (if the user have any question)
-- Admin can add/modify new flight
-- Admin can delete or see passenger record through the portal
-- Admin can edit the admin panel
 
-Essential Functioning Modules
-- User authentication and registration
-- Dashboard: Home, about us, FAQ, book, Login/Signup
-- Book ticket by necessary steps
+# Travel Destination BD – Online Flight Booking Portal
 
-User requirements 
-- User can sign up to the account
-- User can see top popular destinations (inside/ outside Bangladesh)
-- User can book their ticket
-- User can see their booking ticket
-- User can modify their profile
+**Travel Destination BD** is a web-based flight booking portal developed using **PHP** and **MySQL**. The system is designed to provide a user-friendly experience for both customers and administrators, simulating key functionalities required for a basic airline booking platform.
 
-Functional requirements 
-- Store user authentication, booking history in the Data Base
-- Create booking by passenger information
-- Add, delete, modify flight information and passenger information
-- Both admin and passenger information stores in the database
-- Display real-time payment methods in the system
+---
 
-Technical requirements 
-A. Frontend
-HTML5, CSS3, JavaScript
-Frameworks: React.js, plain PHP with Bootstrap
+## 🔧 Project Features
 
-B. Backend
-PHP, Node.js
+### ✈️ User Features
+- **Flight Search and Booking**: Users can search available flights, select options, and proceed with booking.
+- **Booking History**: View details of current and past bookings.
+- **User Registration & Authentication**: Secure login and sign-up functionality.
+- **Profile Management**: Users can update and manage their profile details.
+- **FAQs**: Access helpful information via the FAQ section.
+- **Top Destinations**: Display of popular travel destinations (inside and outside Bangladesh).
 
-C. Database
-MySQL
+### 🔐 Admin Features
+- **Flight Management**: Add, update, or delete flight information.
+- **Passenger Management**: View and delete passenger records.
+- **Admin Panel Customization**: Modify admin panel settings and structure.
 
-D. Server
-XAMPP
-OS: Windows
+---
 
+## 🧩 Essential Modules
 
-Advantages
-- Efficient Booking and Scheduling
-- Improved Customer Experience
-- Cost-Effective
-- Report Generation
+- **User Authentication & Registration**
+- **User Dashboard**: Access to Home, About Us, FAQs, Booking, Login/Signup
+- **Flight Booking System**: Step-by-step ticket booking interface
 
-Future work
-- Mobile application integration
-- Multi-Airline support
+---
 
+## ✅ Functional Requirements
 
+- Store and manage user login details and booking history in the database.
+- Create flight bookings by collecting passenger information.
+- Admin can add, delete, and update flight and passenger records.
+- Both admin and user information is securely stored in the MySQL database.
+- Integration with real-time payment display options (simulation).
+
+---
+
+## 💻 Technical Specifications
+
+| Component         | Technology              |
+|------------------|--------------------------|
+| **Frontend**      | HTML5, CSS3, JavaScript, React.js, PHP (with Bootstrap) |
+| **Backend**       | PHP, Node.js             |
+| **Database**      | MySQL                    |
+| **Server**        | XAMPP                    |
+| **Operating System** | Windows                |
+
+---
+
+## 🚀 Advantages
+
+- **Efficient Booking & Scheduling**
+- **User-Friendly Interface** for better customer experience
+- **Cost-Effective Development**
+- **Reporting Capabilities** for admin insights
+
+---
+
+## 🔮 Future Enhancements
+
+- **Mobile Application Integration** for on-the-go bookings
+- **Multi-Airline Support** to broaden service scope
+- **Payment Gateway Integration** for live transactions
+- **Email Notifications** for booking confirmations and updates
